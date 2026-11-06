@@ -1,0 +1,12 @@
+{
+  "name": "browser-grpc/grpc-dc",
+  "description": "gRPC over WebRTC DataChannels for PHP: dependency-free generated runtime, client and server, all four call shapes.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/browser-grpc/grpc-over-datachannels",
+  "autoload": {
+    "files": ["lib/grpcdc.php"],
+    "classmap": ["lib/grpcdc"]
+  },
+  "require": { "php": ">=8.1" }
+}
